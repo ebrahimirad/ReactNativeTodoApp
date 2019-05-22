@@ -5,8 +5,6 @@ import { setTodoSegment } from './../actions';
 
 class TodoSegment extends Component {
     setTodoSegment(name) {
-        console.log(name);
-        console.log(this.props);
         this.props.dispatch(setTodoSegment(name));
     }
 
